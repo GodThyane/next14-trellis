@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
    title: {
       default: siteConfig.name,
-      template: `%s | ${siteConfig.name}`, // My organization | Trellis
+      template: `%s | ${siteConfig.name}`, // My board | Trellis
    },
    description: siteConfig.description,
    icons: [

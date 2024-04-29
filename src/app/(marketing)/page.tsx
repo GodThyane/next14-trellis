@@ -10,6 +10,8 @@ const textFont = Poppins({
    weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
 });
 
+const description =
+   'Colabora, gestiona proyectos y alcanza nuevos picos de productividad. Desde los rascacielos hasta la oficina en casa, la forma en que trabaja su equipo es única: consígalo todo con Trellis.';
 const MarketingPage = () => {
    return (
       <div className={'flex items-center justify-center flex-col'}>
@@ -48,9 +50,7 @@ const MarketingPage = () => {
                textFont.className
             )}
          >
-            Colabora, gestiona proyectos y alcanza nuevos picos de
-            productividad. Desde los rascacielos hasta la oficina en casa, la
-            forma en que trabaja su equipo es única: consígalo todo con Trellis.
+            {description}
          </p>
          <Button className={'mt-6'} size={'lg'} asChild>
             <Link href={'/sign-up'}>Consigue Trellis gratis</Link>
