@@ -13,7 +13,7 @@ Tailwind y Postgresql.
 4. Instalar dependencias ```npm install```
 5. Levantar la base de datos con ```docker-compose up -d```
 6. Correr las migraciones de Prisma con ```npx prisma migrate dev```
-   7Correr el proyecto ```npm run dev```
+7. Correr el proyecto ```npm run dev```
 
 ## Uso
 
